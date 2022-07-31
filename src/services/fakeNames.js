@@ -54,8 +54,8 @@ module.exports = {
       indexUpdater(firstName)
       indexUpdater(lastName)
     }
-    const shit = highestFinder(indexObj, 10, initTime)
+    const data = highestFinder(indexObj, 10, initTime)
 
-    return shit
+    return data
   },
 }
